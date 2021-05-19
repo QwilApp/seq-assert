@@ -1,0 +1,21 @@
+{
+  "name": "ilya-algo",
+  "version": "1.0.0",
+  "description": "Test util to assert sequence matches some defined rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src/index.js --out-file index.js"
+  },
+  "author": "Ilya Kaloshin <ilya@qwil.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "prettier": "^2.3.0"
+  }
+}
