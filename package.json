@@ -1,5 +1,5 @@
 {
-  "name": "ilya-algo",
+  "name": "seq-assert",
   "version": "1.0.0",
   "description": "Test util to assert sequence matches some defined rules",
   "main": "index.js",
